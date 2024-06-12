@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+
+
+*
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+    color: var(--bs-body-color);
+    background-color: #f8f9fe;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray heading color */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #555; /* Medium gray label color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+input[type="number"]
+ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White input background */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:  #5e72e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: darkblue;
+}
